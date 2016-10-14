@@ -1,0 +1,89 @@
+body {
+  background-color: black;
+
+}
+
+p {
+  color: white;
+}
+
+.offset-xs-1 {
+  margin-left: 8.333333%;
+}
+
+.offset-xs-2 {
+  margin-left: 16.666667%;
+}
+
+.offset-xs-3 {
+  margin-left: 25%;
+}
+
+.offset-xs-4 {
+  margin-left: 33.333333%;
+}
+
+.offset-xs-5 {
+  margin-left: 41.666667%;
+}
+
+.offset-xs-6 {
+  margin-left: 50%;
+}
+
+.offset-xs-7 {
+  margin-left: 58.333333%;
+}
+
+.offset-xs-8 {
+  margin-left: 66.666667%;
+}
+
+.offset-xs-9 {
+  margin-left: 75%;
+}
+
+.offset-xs-10 {
+  margin-left: 83.333333%;
+}
+
+.offset-xs-11 {
+  margin-left: 91.666667%;
+}
+
+.offset-md-0 {
+  margin-left: 0%;
+}
+.offset-md-1 {
+  margin-left: 8.333333%;
+}
+.offset-md-2 {
+  margin-left: 16.666667%;
+}
+.offset-md-3 {
+  margin-left: 25%;
+}
+.offset-md-4 {
+  margin-left: 33.333333%;
+}
+.offset-md-5 {
+  margin-left: 41.666667%;
+}
+.offset-md-6 {
+  margin-left: 50%;
+}
+.offset-md-7 {
+  margin-left: 58.333333%;
+}
+.offset-md-8 {
+  margin-left: 66.666667%;
+}
+.offset-md-9 {
+  margin-left: 75%;
+}
+.offset-md-10 {
+  margin-left: 83.333333%;
+}
+.offset-md-11 {
+  margin-left: 91.666667%;
+}

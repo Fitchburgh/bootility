@@ -1,0 +1,128 @@
+
+<!-- TESTING OUT BOOTSTRAP ELEMENTS -->
+
+
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles/main.css" type="text/css">
+    <meta charset="utf-8">
+    <title>Bootility</title>
+  </head>
+  <body>
+    <div class="container">
+
+    <br />
+    <p>Stacked to horizontal</p>
+      <div class="row">
+        <div class="col-md-1 panel panel-default">col-md-1</div>
+        <div class="col-md-1 panel panel-default">col-md-1</div>
+        <div class="col-md-1 panel panel-default">col-md-1</div>
+        <div class="col-md-1 panel panel-default">col-md-1</div>
+        <div class="col-md-1 panel panel-default">col-md-1</div>
+        <div class="col-md-1 panel panel-default">col-md-1</div>
+        <div class="col-md-1 panel panel-default">col-md-1</div>
+        <div class="col-md-1 panel panel-default">col-md-1</div>
+        <div class="col-md-1 panel panel-default">col-md-1</div>
+        <div class="col-md-1 panel panel-default">col-md-1</div>
+        <div class="col-md-1 panel panel-default">col-md-1</div>
+        <div class="col-md-1 panel panel-default">col-md-1</div>
+      </div>
+      <div class="row">
+        <div class="col-md-8 panel panel-default">col-md-8</div>
+        <div class="col-md-4 panel panel-default">col-md-4</div>
+      </div>
+      <div class="row">
+        <div class="col-md-4 panel panel-default">col-md-4</div>
+        <div class="col-md-4 panel panel-default">col-md-4</div>
+        <div class="col-md-4 panel panel-default">col-md-4</div>
+      </div>
+      <div class="row">
+        <div class="col-md-6 panel panel-default">col-md-6</div>
+        <div class="col-md-6 panel panel-default">col-md-6</div>
+      </div>
+
+
+
+      <br />
+      <p>Column Ordering</p>
+    <!-- Example: Column ordering
+Easily change the order of our built-in grid columns with .push-md-* and
+.pull-md-* modifier classes. -->
+      <div class="row">
+        <div class="col-md-9 push-md-3 panel panel-default">.col-md-9 .push-md-3</div>
+        <div class="col-md-3 pull-md-9 panel panel-default">.col-md-3 .pull-md-9</div>
+      </div>
+
+      <br />
+      <p>Nesting Columns</p>
+
+  <!-- Example: Nesting columns -->
+  <!-- To nest your content with the default grid, add a new .row and set of
+  .col-sm-* columns within an existing .col-sm-* column. Nested rows should
+  include a set of columns that add up to 12 or fewer (it is not required that
+   you use all 12 available columns). -->
+      <div class="row">
+        <div class="col-sm-9 panel panel-default">
+          Level 1: .col-sm-9
+          <div class="row">
+            <div class="col-xs-8 col-sm-6 panel panel-default">
+              Level 2: .col-xs-8 .col-sm-6
+            </div>
+            <div class="col-xs-4 col-sm-6 panel panel-default">
+              Level 2: .col-xs-4 .col-sm-6
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <br />
+      <p>Offsetting Columns</p>
+
+
+      <!-- OFFSETTING COLUMNS -->
+      <div class="row">
+        <div class="col-md-4 panel panel-default">.col-md-4</div>
+        <div class="col-md-4 offset-md-4 panel panel-default">.col-md-4 .offset-md-4</div>
+      </div>
+      <div class="row">
+        <div class="col-md-3 offset-md-3 panel panel-default">.col-md-3 .offset-md-3</div>
+        <div class="col-md-3 offset-md-3 panel panel-default">.col-md-3 .offset-md-3</div>
+      </div>
+      <div class="row">
+        <div class="col-md-6 offset-md-3 panel panel-default">.col-md-6 .offset-md-3</div>
+      </div>
+
+      <br />
+      <p>Responsive column resets</p>
+
+<!-- Example: Responsive column resets -->
+      <div class="row">
+        <div class="col-xs-6 col-sm-3 panel panel-default">.col-xs-6 .col-sm-3</div>
+        <div class="col-xs-6 col-sm-3 panel panel-default">.col-xs-6 .col-sm-3</div>
+
+        <!-- Add the extra clearfix for only the required viewport -->
+        <div class="clearfix hidden-sm-up"></div>
+
+        <div class="col-xs-6 col-sm-3 panel panel-default">.col-xs-6 .col-sm-3</div>
+        <div class="col-xs-6 col-sm-3 panel panel-default">.col-xs-6 .col-sm-3</div>
+      </div>
+      <br />
+      <p>Column Wrapping</p>
+<!-- Example: Column wrapping -->
+      <div class="row">
+        <div class="col-xs-9 panel panel-default">.col-xs-9</div>
+        <div class="col-xs-4 panel panel-default">.col-xs-4<br>Since 9 + 4 = 13 &gt; 12, this 4-column-wide div gets wrapped onto a new line as one contiguous unit.</div>
+        <div class="col-xs-6 panel panel-default">.col-xs-6<br>Subsequent columns continue along the new line.</div>
+      </div>
+
+
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="js/jquery.js"></script>
+    <script src="js/main.js"></script>
+
+  </body>
+</html>
